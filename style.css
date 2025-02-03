@@ -2312,7 +2312,11 @@ html {
             padding: 30px; 
             padding-top: 60px; 
         }
-
+        .close-popup{
+            position:absolute;
+            top:30px;
+            right:30px;
+        }
       
   }
   
