@@ -2304,17 +2304,17 @@ html {
         .popup {
             position: absolute; 
             background-color:  #222222; 
-            width: 400px; 
+            width: 300px; 
             left: 50%; 
             top: 50%;
             transform: translate(-50%, -50%);
             padding: 30px; 
-            padding-top: 60px; 
+            padding-left: 60px; 
         }
         .close-popup{
             position:absolute;
-            top:30px;
-            right:30px;
+            top:20px;
+            right:20px;
         }
       
   }
