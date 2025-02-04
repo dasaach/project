@@ -21,17 +21,6 @@ $(document).ready(()=>{
     });
 
 
-    $('.open-popup').click(function(e) {
-            e.preventDefault();
-            $('.popup-bg').fadeIn(800);
-        });
-        
-        $('.close-popup').click(function() {
-            $('.popup-bg').fadeOut(800);
-        });
-         
-    
-
 
     const $navMenu = $("#mobileMenu");
     $("#navbar-toggle").click(function(event){
@@ -142,13 +131,14 @@ $(document).ready(()=>{
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
+        
         ]
     });
 
-           
 
 
 })
+
+function popup(){
+    alert('Форма отправлена!')
+}
